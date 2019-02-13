@@ -1,17 +1,41 @@
+:root {
+	--bg1: #FFCEDD;
+	--bg2: #B5FDFF;
+	--bg3: #FCFFAF;
+	--fg1: #3c2109;
+	--fg2: #006060;
+	--fg3: #2b390e;
+}
+
 html, body {
 	margin: 0;
 	padding: 0;
 }
 
 h1 {
-	color: white;
-	font-size: 72px;
+	color: var(--fg1);
+	font-size: 5em;
+}
 
+h2 {
+	color: var(--fg2);
+	font-size: 3em;
+	top: 0;
+	left: 0;
+	position: absolute;
+}
+
+h3 {
+	clear: both;
+	position: absolute;
+	bottom: 1em;
+	left: 1em;
+	color: var(--fg3);
 }
 
 #splash {
 	height: 100%;
-	background-image: url('../img/main_pc.jpg');
+	background-color: var(--bg1);
 	background-size: cover;
 	overflow: auto;
 	position: relative;
@@ -21,10 +45,40 @@ h1 {
 	position: absolute;
 	bottom: 1em;
 	left: 1em;
-	background: #00a2e8;
+	background: var(--fg1);
 	box-shadow: none;
 	border: 0;
-	color: white;
-	font-size: 36px;
-	border-radius: 9px;
+	font-size: 3em;
+	color: var(--bg1);
+	border-radius: 0.15em;
+}
+
+#choose {
+  height: 100%;
+  width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: var(--bg2);
+	overflow: auto;
+	position: relative;
+	color: var(--fg2);
+}
+
+#picker {
+  height: 100%;
+	background-color: var(--bg3);
+	overflow: auto;
+	position: relative;
+	color: var(--fg3);
+}
+
+.box {
+	width: 200px;
+	height: 200px;
+  color: var(--fg3);
+  outline: var(--fg3) solid;
+	text-align: center;
+	margin: 1em;
+	display: inline-block;
 }

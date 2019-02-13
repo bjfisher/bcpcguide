@@ -5,4 +5,9 @@ $(document).ready(function() {
       beforeChange: null, // Callback which is called before views change
 	    afterChange: null, // Callback which is called after views change
   });
+
+  $('.box').click(function() {
+    $.fn.viewScroller.showView('thirdview');
+  });
+
 });
