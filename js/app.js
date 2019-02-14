@@ -42,7 +42,7 @@ $(document).ready(function() {
 
   };
 
-  maketable('../csv/cpu.csv', 'div-cpu');
+  maketable('/csv/cpu.csv', 'div-cpu');
 
   $('.box').click(function() {
     $.fn.viewScroller.showView('thirdview');
