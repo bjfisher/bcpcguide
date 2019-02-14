@@ -1,0 +1,32 @@
+Manufacturer,Model,Clock,Cores,TDP,Socket,Architecture,Price
+AMD,AMD Athlon 200GE,3.2 GHz,2,35 W,AM4,,85
+AMD,AMD Ryzen 3 2200G,3.5 GHz,4,65 W,AM4,,155
+AMD,AMD Ryzen 5 2400G,3.6 GHz,4,65 W,AM4,,245
+AMD,AMD Ryzen 5 2600,3.4 GHz,6,65 W,AM4,,259
+AMD,AMD Ryzen 5 2600X,3.6 GHz,6,95 W,AM4,,349
+AMD,AMD Ryzen 7 2700,3.2 GHz,8,65 W,AM4,,419
+AMD,AMD Ryzen 7 2700X,3.7 GHz,8,105 W,AM4,,515
+AMD,AMD Threadripper 1920X,3.5 GHz,12,180 W,TR4,,629
+AMD,AMD Threadripper 2950X,3.5 GHz,16,180 W,TR4,,1415
+AMD,AMD Threadripper 2990WX,3 GHz,32,250 W,TR4,,2679
+Intel,Intel Core i3-8100,3.6 GHz,4,65 W,1151,CoffeeLake,195
+Intel,Intel Core i5-8400,2.8 GHz,6,65 W,1151,CoffeeLake,319
+Intel,Intel Core i5-8500,3 GHz,6,65 W,1151,CoffeeLake,389
+Intel,Intel Core i5-8600K,3.6 GHz,6,95 W,1151,CoffeeLake,419
+Intel,Intel Core i5-9400F,2.9 GHz,6,65 W,1151,CoffeeLake,319
+Intel,Intel Core i5-9600K,3.7 GHz,6,95 W,1151,CoffeeLake,409
+Intel,Intel Core i7-8700,3.2 GHz,6,65 W,1151,CoffeeLake,508
+Intel,Intel Core i7-9800X,3.8 GHz,8,165 W,1151,CoffeeLake,999
+Intel,Intel Core i9-9820X,3.3 GHz,10,165 W,1151,CoffeeLake,1349
+Intel,Intel Core i9-9900K,3.6 GHz,8,95 W,1151,CoffeeLake,929
+Intel,Intel Core i9-9920X,3.5 GHz,12,165 W,1151,CoffeeLake,1799
+Intel,Intel Core i9-9940X,3.3 GHz,14,165 W,1151,CoffeeLake,2109
+Intel,Intel Core i9-9960X,3.1 GHz,16,165 W,1151,CoffeeLake,2599
+Intel,Intel Core i9-9980XE,3 GHz,18,165 W,1151,CoffeeLake,2950
+Intel,Intel Pentium G5400,3.7 GHz,2,58 W,1151,CoffeeLake,109
+Intel,Intel Pentium G5600,3.9 GHz,2,54 W,1151,CoffeeLake,179
+Intel,Intel Xeon E3-1220 V6,3 GHz,4,72 W,1151,KabyLake,299
+Intel,Intel Xeon E3-1225 V6,3.3 GHz,4,73 W,1151,KabyLake,341
+Intel,Intel Xeon E3-1230 V6,3.5 GHz,4,72 W,1151,KabyLake,391
+Intel,Intel Xeon E3-1240 V6,3.7 GHz,4,72 W,1151,KabyLake,441
+Intel,Intel Xeon E3-1270 V6,3.8 GHz,4,72 W,1151,KabyLake,479
