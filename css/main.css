@@ -82,3 +82,7 @@ h3 {
 	margin: 1em;
 	display: inline-block;
 }
+
+.core-table-header {
+	color: blue;
+}
